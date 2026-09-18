@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#11233f" />
+    <meta
+      name="description"
+      content="中国城市机会环境图谱：北京、上海、广州、深圳、成都、香港的区级人口与机会环境研究原型。"
+    />
+    <title>中国城市机会环境图谱 · China Opportunity Context Atlas</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#atlas">跳到交互地图</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首页">
+        <svg aria-hidden="true" viewBox="0 0 42 42">
+          <path d="M5 8h32v6H5zm0 10h21v6H5zm0 10h27v6H5z" />
+          <circle cx="33" cy="21" r="4" />
+        </svg>
+        <span>
+          <strong>机会环境图谱</strong>
+          <small>CHINA OPPORTUNITY CONTEXT ATLAS</small>
+        </span>
+      </a>
+      <nav aria-label="主导航">
+        <a href="#atlas">地图</a>
+        <a href="#lab">实验室</a>
+        <a href="#method">方法</a>
+        <a href="#evidence">证据</a>
+      </nav>
+      <span class="version-pill"><i></i> RESEARCH PROTOTYPE · V0.4</span>
+    </header>
+
+    <main id="top">
+      <section class="intro" aria-labelledby="hero-title">
+        <div><p class="eyebrow">SIX CITIES · 90 DISTRICT UNITS · OPEN METHODS</p>
+        <h1 id="hero-title">中国城市机会环境图谱</h1>
+        <p>探索成长环境，检验你的假设。区级人口画像与香港家庭收入数据；观测、模型与未知，各有边界。</p></div>
+        <a class="button button-primary" href="https://github.com/Ericnotme/china-opportunity-atlas" target="_blank" rel="noreferrer">GitHub · 代码与数据 ↗</a>
+      </section>
+
+      <section class="atlas-section" id="atlas" tabindex="-1" aria-labelledby="atlas-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-index">01 / EXPLORE</p>
+            <h2 id="atlas-title">从一座城市开始</h2>
+          </div>
+          <p>
+            点击一个区查看数据。颜色仅在市内比较；部分开发区按原始普查合并口径展示。
+          </p>
+        </div>
+
+        <div class="atlas-shell">
+          <div class="control-bar">
+            <div class="control-group city-control">
+              <span class="control-label">选择城市 / CITY</span>
+              <div class="city-tabs" id="city-tabs" role="radiogroup" aria-label="选择城市"></div>
+            </div>
+            <label class="control-group metric-control" for="metric-select">
+              <span class="control-label">显示指标 / METRIC</span>
+              <span class="select-wrap">
+                <select id="metric-select"></select>
+                <svg aria-hidden="true" viewBox="0 0 20 20"><path d="m5 7 5 5 5-5" /></svg>
+              </span>
+            </label>
+            <label class="control-group district-control" for="district-select">
+              <span class="control-label">定位单元 / DISTRICT</span>
+              <span class="select-wrap">
+                <select id="district-select"></select>
+                <svg aria-hidden="true" viewBox="0 0 20 20"><path d="m5 7 5 5 5-5" /></svg>
+              </span>
+            </label>
+          </div>
+
+          <div class="scenario-controls" id="scenario-controls" hidden>
+            <div><strong>假设由你设定</strong><p>拖动三项权重，地图随之变化。权重自动归一化；演示分不代表收入或机会质量。</p></div>
+            <label>人口变化 <output id="weight-growth-label">50%</output><input id="weight-growth" type="range" min="0" max="100" step="5" value="50" /></label>
+            <label>劳动年龄 <output id="weight-working-label">30%</output><input id="weight-working" type="range" min="0" max="100" step="5" value="30" /></label>
+            <label>少儿比例 <output id="weight-child-label">20%</output><input id="weight-child" type="range" min="0" max="100" step="5" value="20" /></label>
+            <button type="button" class="small-button" id="reset-weights">恢复默认</button>
+            <p id="weight-warning" role="status" hidden>至少一项权重须大于零。当前情景不生成得分。</p>
+          </div>
+          <div class="atlas-grid">
+            <div class="map-panel">
+              <div class="map-meta">
+                <div>
+                  <p id="map-city-en">BEIJING</p>
+                  <h3><span id="map-city">北京</span> · <span id="map-metric">0–14 岁人口比例</span></h3>
+                </div>
+                <span class="status-badge observed" id="metric-status">已发布观测 · OBSERVED</span>
+              </div>
+
+              <div class="map-stage">
+                <svg
+                  id="district-map"
+                  viewBox="0 0 820 590"
+                  role="group"
+                  aria-labelledby="map-svg-title map-svg-description"
+                >
+                  <title id="map-svg-title">北京 0–14 岁人口比例交互地图</title>
+                  <desc id="map-svg-description">使用行政区下拉菜单、键盘 Tab 键或鼠标选择统计单元。</desc>
+                  <g class="map-grid-lines" aria-hidden="true">
+                    <path d="M40 120H780M40 240H780M40 360H780M40 480H780" />
+                    <path d="M160 55V535M320 55V535M480 55V535M640 55V535" />
+                  </g>
+                  <g id="map-paths"></g>
+                </svg>
+                <div class="map-tooltip" id="map-tooltip" hidden></div>
+                <div class="map-stamp" aria-hidden="true">
+                  <span>WITHIN-CITY SCALE</span>
+                  <b>城市内标尺</b>
+                </div>
+              </div>
+
+              <div class="legend-wrap">
+                <span id="legend-low">低</span>
+                <div class="legend-scale" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i>
+                </div>
+                <span id="legend-high">高</span>
+                <p id="legend-values"></p>
+                <span class="missing-key"><i aria-hidden="true"></i>缺失</span>
+              </div>
+              <p class="map-footnote">
+                区界为研究示意，不构成标准地图或测绘依据。未叠加在线底图，不展示国界。
+              </p>
+            </div>
+
+            <aside class="inspector" aria-live="polite">
+              <div class="inspector-topline">
+                <span id="selected-code">110108</span>
+                <span id="selected-rank">市内第 — 位</span>
+              </div>
+              <p class="district-en" id="selected-city-en">BEIJING</p>
+              <h3 id="selected-name">海淀区</h3>
+              <div class="value-block">
+                <span id="selected-value">11.8</span>
+                <small id="selected-unit">%</small>
+              </div>
+              <p class="metric-explainer" id="metric-explainer"></p>
+
+              <dl class="district-facts" id="district-facts"></dl>
+
+              <div class="coverage-card" id="coverage-card">
+                <div><span>指标覆盖</span><b id="coverage-value">100%</b></div>
+                <div class="coverage-track"><i id="coverage-bar"></i></div>
+                <p id="coverage-copy">已发布人口统计的原始或直接计算值。</p>
+              </div>
+
+              <div class="sensitivity-card" id="sensitivity-card" hidden>
+                <p class="sub-index">66 WEIGHT SCENARIOS</p><h4>换一套权重，结论稳吗？</h4>
+                <p id="sensitivity-result"></p><p id="sensitivity-detail"></p>
+                <small>情景范围，不是置信区间；情景占比不是现实概率。</small>
+              </div>
+              <div class="source-card">
+                <p>SOURCE LINE</p>
+                <span id="source-line"></span>
+              </div>
+
+              <div class="ranking-block" id="ranking-block">
+                <div class="ranking-title"><span>当前指标前 6 位</span><small>市内数值 · 并列同位</small></div>
+                <ol id="district-ranking"></ol>
+              </div>
+            </aside>
+          </div>
+
+          <div class="caveat-strip">
+            <strong>阅读规则</strong>
+            <p id="metric-caveat">
+              少儿比例反映人口结构，不等于教育资源质量，也不代表儿童个体结果。
+            </p>
+            <span>OBSERVED ≠ CAUSAL</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="lab-section" id="lab" aria-labelledby="lab-title">
+        <div class="section-heading"><div><p class="section-index">02 / MODEL LAB</p><h2 id="lab-title">让模型接受检验</h2></div>
+        <p>数据有限时，先回答可检验的小问题：用 2022–2024 年香港区级家庭收入，预测留出的 2025 年。</p></div>
+        <div class="lab-shell">
+          <div class="lab-intro"><span class="status-badge derived">历史回测 · BACKTEST</span>
+          <h3>复杂模型，真的胜过简单基线吗？</h3>
+          <p>2022–2023 拟合，2024 选择收缩权重；固定权重后用截至 2024 年的数据重估趋势，最后对照 2025 年。留出年份不参与调参。</p>
+          <p class="lab-result" id="backtest-summary">正在加载实验结果…</p>
+          <p>这里预测的是当期家庭收入统计，不是儿童成年收入或迁居效应。实验为事后历史回测，不是事先登记的预测。</p></div>
+          <div class="lab-results"><table class="results-table"><caption>18 区，留出年份 2025 · 误差单位 HK$/月</caption><thead><tr><th scope="col">模型</th><th scope="col">MAE ↓</th><th scope="col">RMSE ↓</th></tr></thead><tbody id="backtest-models"></tbody></table>
+          <p>MAE：平均绝对误差；RMSE：均方根误差，对大偏差惩罚更重。每区等权。</p></div>
+          <div class="prediction-panel"><label for="prediction-model">查看模型 <select id="prediction-model"><option value="shrinkage">收缩趋势</option><option value="persistence">上年值基线</option><option value="pooled">共同趋势</option><option value="local">各区独立趋势</option></select></label>
+          <svg id="prediction-plot" viewBox="0 0 620 390" role="img" aria-label="预测与实际家庭月收入散点图"></svg>
+          <p>每点代表一个区；越靠近对角线，预测误差越小。点上的提示显示区名与数值。</p></div>
+          <div class="experiment-notes"><h3>这个实验能说明什么？</h3><p>收缩（shrinkage）把各区自身增长趋势向共同趋势拉近，减少小样本波动。权重用验证集选取，不靠手调出漂亮结果。</p><p>只有 18 区和 4 年，且收入是带抽样误差的发布估计；此回测不能证明模型长期有效。共同趋势是各区增长率的等权平均，不是全港中位收入的增长。</p>
+          <a href="./data/experiments.json" download>下载全部实验结果 JSON ↗</a>
+          <a href="./data/districts.csv" download>下载六城数据 CSV ↗</a>
+          <a href="https://github.com/Ericnotme/china-opportunity-atlas/blob/main/notebooks/research_walkthrough.ipynb" target="_blank" rel="noreferrer">打开可复现研究 Notebook ↗</a></div>
+        </div>
+        <details class="residual-details"><summary>查看 18 区预测、实际值与误差</summary><div class="table-scroll"><table class="results-table"><thead><tr><th>区</th><th>2025 实际</th><th>模型预测</th><th>预测 − 实际</th></tr></thead><tbody id="prediction-districts"></tbody></table></div></details>
+      </section>
+
+      <section class="method-section" id="method" aria-labelledby="method-title">
+        <div class="section-heading light">
+          <div>
+            <p class="section-index">03 / METHOD</p>
+            <h2 id="method-title">把“我不知道”也建模</h2>
+          </div>
+          <p>
+            严谨的数据产品不靠填满每个格子，而靠清楚标注：什么是观测，什么是计算，什么仍需研究。
+          </p>
+        </div>
+
+        <div class="evidence-rail" aria-label="证据层级">
+          <article>
+            <span class="evidence-number">01</span>
+            <p class="evidence-label observed-label">OBSERVED</p>
+            <h3>已发布 / 汇编观测</h3>
+            <p>由公开来源发布或汇编的七普人口、年龄结构，以及香港区级家庭收入调查估计；保留完整数据链路。</p>
+          </article>
+          <article>
+            <span class="evidence-number">02</span>
+            <p class="evidence-label derived-label">DERIVED</p>
+            <h3>透明派生</h3>
+            <p>人口变化率、城市内分位与实验性综合分。公式可复现，不能解释为因果效应。</p>
+          </article>
+          <article>
+            <span class="evidence-number">03</span>
+            <p class="evidence-label literature-label">LITERATURE</p>
+            <h3>论文约束</h3>
+            <p>CFPS、CHFS 与代际流动论文用于提出假设、限定解释，不直接给每个区“贴系数”。</p>
+          </article>
+          <article class="future-card">
+            <span class="evidence-number">04</span>
+            <p class="evidence-label future-label">FUTURE</p>
+            <h3>待验证估计</h3>
+            <p>申请受限地理数据、池化多期调查、做小区域估计，并用迁移设计验证因果性。</p>
+          </article>
+        </div>
+
+        <div class="score-method">
+          <div class="score-copy">
+            <p class="sub-index">EXPERIMENTAL SCORE / 仅大陆五城</p>
+            <h3>人口活力演示分如何计算？</h3>
+            <p>
+              先把三项指标转成同一城市内的百分位，再按固定权重求和。三项必须全部可用才显示；缺失时不会自动填补。选择“自定义权重情景”可改变权重，并查看 66 组权重下的次序变化。
+              它是非默认的界面与管线演示指标，不是“机会分”，也不是经过验证的社会科学量表。
+            </p>
+          </div>
+          <div class="formula-card" aria-label="综合分权重">
+            <div class="formula-row"><span>人口十年变化</span><b>50%</b><i style="--weight: 50%"></i></div>
+            <div class="formula-row"><span>劳动年龄人口</span><b>30%</b><i style="--weight: 30%"></i></div>
+            <div class="formula-row"><span>0–14 岁人口</span><b>20%</b><i style="--weight: 20%"></i></div>
+            <p>score = Σ (within-city percentile × weight)，Σ weight = 1</p>
+          </div>
+        </div>
+
+        <div class="pipeline" aria-label="数据管线">
+          <div><small>INPUT</small><b>公开普查 / 统计表</b></div>
+          <span>→</span>
+          <div><small>TRANSFORM</small><b>行政区匹配 / 缺失审计</b></div>
+          <span>→</span>
+          <div><small>MODEL</small><b>市内标准化 / 分位得分</b></div>
+          <span>→</span>
+          <div><small>INTERFACE</small><b>SVG 地图 / 可追溯说明</b></div>
+        </div>
+      </section>
+
+      <section class="evidence-section" id="evidence" aria-labelledby="evidence-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-index">04 / EVIDENCE</p>
+            <h2 id="evidence-title">从论文得到问题，不偷走结论</h2>
+          </div>
+          <p>三个数据或研究来源，扮演三种不同角色。混在一起，地图会看起来更满，却更不可信。</p>
+        </div>
+
+        <div class="source-grid">
+          <article>
+            <div class="source-head"><span>01</span><p>SURVEY FRAME</p></div>
+            <h3>CFPS · 中国家庭追踪调查</h3>
+            <p>
+              全国性纵向调查，覆盖个人、家庭与社区。公开版隐藏省以下真实地理位置，抽样设计也不代表六城每一个区。
+            </p>
+            <dl><div><dt>本项目用途</dt><dd>变量设计、纵向研究路线</dd></div><div><dt>不做什么</dt><dd>不把微观样本摊到区级地图</dd></div></dl>
+            <a href="https://www.isss.pku.edu.cn/cfps/" target="_blank" rel="noreferrer">北京大学 CFPS 官方页 ↗</a>
+          </article>
+          <article>
+            <div class="source-head"><span>02</span><p>HOUSEHOLD FINANCE</p></div>
+            <h3>CHFS · 中国家庭金融调查</h3>
+            <p>
+              提供家庭资产、负债、收入与金融行为信息；适合研究家庭资源机制，但公开样本不能支撑每个行政区的精确估计。
+            </p>
+            <dl><div><dt>本项目用途</dt><dd>家庭资源机制与候选指标</dd></div><div><dt>不做什么</dt><dd>不公开或再分发调查微观数据</dd></div></dl>
+            <a href="https://chfs.swufe.edu.cn/sjzx/gksjk.htm" target="_blank" rel="noreferrer">西南财大 CHFS 数据页 ↗</a>
+          </article>
+          <article>
+            <div class="source-head"><span>03</span><p>RESEARCH FINDING</p></div>
+            <h3>Sticky Floor & Ceiling</h3>
+            <p>
+              Guo（2026）使用 CFPS 2010–2018 研究城市规模与代际流动，发现大城市存在“黏性地板与天花板”。关键地理暴露在城市层级，不能下推到区。
+            </p>
+            <dl><div><dt>本项目用途</dt><dd>研究假设与分层设计</dd></div><div><dt>不做什么</dt><dd>不把城市系数复制到各区</dd></div></dl>
+            <a href="https://www.sciencedirect.com/science/article/pii/S0167268126001307" target="_blank" rel="noreferrer">论文页面 ↗</a>
+          </article>
+        </div>
+
+        <div class="comparison-block">
+          <div>
+            <p class="sub-index">WHY NOT A CLONE?</p>
+            <h3>与美国 Opportunity Atlas 的关键差异</h3>
+          </div>
+          <div class="comparison-table" role="table" aria-label="数据条件比较">
+            <div class="comparison-row comparison-head" role="row">
+              <span role="columnheader">维度</span><span role="columnheader">Opportunity Atlas</span><span role="columnheader">本原型</span>
+            </div>
+            <div class="comparison-row" role="row"><b role="cell">核心数据</b><span role="cell">近乎全量纵向行政记录</span><span role="cell">公开/汇编普查聚合表 + 文献约束</span></div>
+            <div class="comparison-row" role="row"><b role="cell">空间尺度</b><span role="cell">Census tract</span><span role="cell">区 / 县级单元</span></div>
+            <div class="comparison-row" role="row"><b role="cell">结果变量</b><span role="cell">成年收入等长期结果</span><span role="cell">当期环境与人口结构</span></div>
+            <div class="comparison-row" role="row"><b role="cell">可解释性</b><span role="cell">经迁移设计验证的邻里效应</span><span role="cell">描述性、相关性、待验证</span></div>
+          </div>
+        </div>
+
+        <div class="research-roadmap">
+          <p class="sub-index">RESEARCH ROADMAP</p>
+          <h3>要走到真正的“中国机会图谱”，还缺四步</h3>
+          <ol>
+            <li><span>01</span><div><b>受限地理数据</b><p>在合规环境中申请并使用可定位到区或社区的调查数据。</p></div></li>
+            <li><span>02</span><div><b>纵向结果构建</b><p>对齐父母基期资源与子代成年后的教育、就业和收入。</p></div></li>
+            <li><span>03</span><div><b>小区域估计</b><p>使用分层贝叶斯或其他部分池化方法，并公开不确定区间。</p></div></li>
+            <li><span>04</span><div><b>因果验证</b><p>借助儿童时期迁移、政策边界或准实验识别环境暴露效应。</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="limitations" class="disclaimer" aria-labelledby="disclaimer-title">
+        <div>
+          <p class="section-index">READ BEFORE USE</p>
+          <h2 id="disclaimer-title">从区级统计，到儿童未来收入，仍有距离。</h2>
+        </div>
+        <p>
+          区级颜色受样本误差、人口迁移、家庭择居、行政区调整、物价与年份口径影响。除明确标注为“观测值”的指标外，数值均为透明计算或研究设想。
+          本站不提供个体预测，也不声称搬到某区会使孩子未来收入增加多少。
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <strong>中国城市机会环境图谱</strong>
+        <span>A reproducible research prototype for data-driven urban inquiry.</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://opportunityinsights.org/paper/the-opportunity-atlas/" target="_blank" rel="noreferrer">Opportunity Atlas</a>
+        <a href="https://github.com/Ericnotme/china-opportunity-atlas" target="_blank" rel="noreferrer">本项目 GitHub</a>
+        <a href="#limitations">局限性</a>
+        <a href="https://github.com/leiii/census" target="_blank" rel="noreferrer">Census data</a>
+        <a href="https://portal.csdi.gov.hk/csdi-webpage/dataset/had_rcd_1634523272907_75218" target="_blank" rel="noreferrer">HK boundaries</a>
+      </div>
+      <p>CODE + METHODS + INTERFACE · 2026</p>
+    </footer>
+
+    <script src="./model.js" defer></script>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

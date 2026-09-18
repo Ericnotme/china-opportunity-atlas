@@ -1,0 +1,3111 @@
+{
+    "header": {
+        "status": {
+            "name": "Success",
+            "code": 0,
+            "description": "Query success",
+            "param": {
+                "cv": {
+                    "DC": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "J",
+                        "S",
+                        "K",
+                        "L",
+                        "M",
+                        "N",
+                        "P",
+                        "R",
+                        "Q",
+                        "T"
+                    ]
+                },
+                "sv": {
+                    "ADHS": [
+                        "Raw_1dp_per_n"
+                    ],
+                    "MED_DH_INC": [
+                        "Raw_hkd_d"
+                    ],
+                    "MED_DH_INC_XEI": [
+                        "Raw_hkd_d"
+                    ],
+                    "MED_DH_INC_XEI_XFDH": [
+                        "Raw_hkd_d"
+                    ]
+                },
+                "period": {
+                    "start": "2022"
+                },
+                "id": "130-06806",
+                "lang": "en"
+            },
+            "apiHelp": "https:\/\/www.censtatd.gov.hk\/en\/web_table.html?id=130-06806&api_popup=1"
+        },
+        "title": "Average household size and median monthly household income of households by District Council district",
+        "tablenote": [
+            "Figures are compiled based on the survey results of the General Household Survey (GHS) from January to December of the year concerned as well as the mid-year population estimates and may be regarded as referring to the overall situation of the whole year.     The GHS covers the land-based non-institutional population and thus does not cover (a) inmates of institutions; and (b) persons living on board vessels. The land-based non-institutional population constitutes about 99% of the Hong Kong Resident Population.     Median monthly household income are rounded to the nearest hundred.",
+            "Domestic household consists of a group of persons who live together and make common provision for essentials for living. These persons need not be related. If a person makes provision for essentials for living without sharing with other persons, he\/she is also regarded as a household. In this case, the household is a one-person household. A domestic household must have at least one member who is a Usual Resident. Households comprising Mobile Residents only are not classified as domestic households.",
+            "Household size refers to the number of household members in a domestic household.",
+            "The boundaries of the Wan Chai district and Eastern district adopted since 2016 are different from those adopted in 2015 and earlier years. Therefore, figures of the Wan Chai and Eastern districts for 2016 and thereafter are not strictly comparable with those for 2015 and earlier years in this table.",
+            "Monthly household income refers to the total cash income, including earnings (before deduction of Mandatory Provident Fund contributions) from all jobs and other cash income received in the month before enumeration by all members of the household. Other cash income includes income generated from rent income, interest, dividends, regular\/monthly pensions and insurance annuity benefits, regular contribution from persons outside the household, regular contribution from charities and all government subsidies.",
+            "Economically active household is a domestic household with at least one member (excluding foreign domestic helpers) being economically active."
+        ],
+        "source": "General Household Survey Social Analysis and Research Section, Census and Statistics Department (Enquiry telephone no. : 3863 2791 Enquiry e-mail : ghs@censtatd.gov.hk)",
+        "count": {
+            "noOfRecords": 304,
+            "started": "2026-09-17T10:32:52+00:00",
+            "finished": "2026-09-17T10:32:52+00:00",
+            "durationSeconds": 0.033617
+        }
+    },
+    "dataSet": [
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.9,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.4,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.5,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.8,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.8,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.8,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.5,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.9,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.4,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.5,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.8,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.8,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.9,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.8,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.5,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.4,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.9,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.3,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.5,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.8,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.4,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.4,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.8,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.3,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.5,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.5,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.5,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.8,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.7,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.6,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "ADHS",
+            "svDesc": "No.",
+            "figure": 2.5,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 28300,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 42300,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 41800,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 31500,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 34200,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 29000,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 22800,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30000,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 24400,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 22100,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 32300,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 25800,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 28900,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 24400,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30200,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 29700,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 24300,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 29400,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30000,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 42600,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 40500,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 33800,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 36000,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30700,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 24100,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30700,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 25100,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 24000,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 34400,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 26500,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30100,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 25500,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 31700,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 40400,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30500,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 26000,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 31500,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30000,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 42400,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 40800,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 32500,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 36000,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 29000,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 24500,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 31100,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 25600,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 24200,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 34200,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 26200,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30000,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 25800,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 31300,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 41200,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 31000,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 25500,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 31000,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30000,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 45000,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 43300,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 33400,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 36000,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30300,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 25000,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 31300,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 25600,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 24900,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 34200,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 27400,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30000,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 26200,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 30700,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 40600,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 31800,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 25700,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC",
+            "svDesc": "HK$",
+            "figure": 31800,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 36200,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 56100,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 59800,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 41000,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 42600,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 37500,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 30400,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40200,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 32800,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 29900,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40900,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 33000,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 35000,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 31700,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 39500,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 47400,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 37800,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 30400,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 36000,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 38300,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 60100,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 57200,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 44200,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 46800,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 31700,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40700,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 33200,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 32000,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 43000,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 34300,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 36100,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 31800,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40200,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 49200,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 34100,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 39500,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 60000,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 58300,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 45600,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 46400,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 33200,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 43600,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 33800,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 32100,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 43400,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 35100,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 36900,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 33900,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40800,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 50000,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 41000,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 33900,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 39500,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 62200,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 60000,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 45700,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 45800,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40600,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 35000,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 45000,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 34300,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 34000,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 44000,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 36200,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 37700,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 34500,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 40400,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 50500,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 42100,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 34000,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI",
+            "svDesc": "HK$",
+            "figure": 39800,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 35900,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 55000,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 59000,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40500,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 41700,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 37000,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 30300,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 32500,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 29500,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40600,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 32500,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 34800,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 31500,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 38800,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 47200,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 37500,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 30300,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2022",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 35800,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 38100,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 60000,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 56600,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 43800,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 46000,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 31500,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40200,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 33000,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 31700,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 42800,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 34200,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 35800,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 31500,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 48700,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 34000,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2023",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 39500,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 39100,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 59500,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 57000,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 45100,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 45400,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 33000,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 43000,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 33600,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 32000,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 43000,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 35000,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 36400,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 33700,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40400,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 50000,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40500,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 33600,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2024",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 39100,
+            "sd_value": ""
+        },
+        {
+            "DC": "",
+            "DCDesc": "Total",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40000,
+            "sd_value": ""
+        },
+        {
+            "DC": "A",
+            "DCDesc": "Central and Western",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 61200,
+            "sd_value": ""
+        },
+        {
+            "DC": "B",
+            "DCDesc": "Wan Chai",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 58300,
+            "sd_value": ""
+        },
+        {
+            "DC": "C",
+            "DCDesc": "Eastern",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 45100,
+            "sd_value": ""
+        },
+        {
+            "DC": "D",
+            "DCDesc": "Southern",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 45200,
+            "sd_value": ""
+        },
+        {
+            "DC": "E",
+            "DCDesc": "Yau Tsim Mong",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40200,
+            "sd_value": ""
+        },
+        {
+            "DC": "F",
+            "DCDesc": "Sham Shui Po",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 34500,
+            "sd_value": ""
+        },
+        {
+            "DC": "G",
+            "DCDesc": "Kowloon City",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 44600,
+            "sd_value": ""
+        },
+        {
+            "DC": "H",
+            "DCDesc": "Wong Tai Sin",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 34300,
+            "sd_value": ""
+        },
+        {
+            "DC": "J",
+            "DCDesc": "Kwun Tong",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 33600,
+            "sd_value": ""
+        },
+        {
+            "DC": "K",
+            "DCDesc": "Tsuen Wan",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 43000,
+            "sd_value": ""
+        },
+        {
+            "DC": "L",
+            "DCDesc": "Tuen Mun",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 36000,
+            "sd_value": ""
+        },
+        {
+            "DC": "M",
+            "DCDesc": "Yuen Long",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 37200,
+            "sd_value": ""
+        },
+        {
+            "DC": "N",
+            "DCDesc": "North",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 34300,
+            "sd_value": ""
+        },
+        {
+            "DC": "P",
+            "DCDesc": "Tai Po",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 40100,
+            "sd_value": ""
+        },
+        {
+            "DC": "Q",
+            "DCDesc": "Sai Kung",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 50000,
+            "sd_value": ""
+        },
+        {
+            "DC": "R",
+            "DCDesc": "Sha Tin",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 41600,
+            "sd_value": ""
+        },
+        {
+            "DC": "S",
+            "DCDesc": "Kwai Tsing",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 33800,
+            "sd_value": ""
+        },
+        {
+            "DC": "T",
+            "DCDesc": "Islands",
+            "freq": "Y",
+            "period": "2025",
+            "sv": "MED_DH_INC_XEI_XFDH",
+            "svDesc": "HK$",
+            "figure": 39700,
+            "sd_value": ""
+        }
+    ]
+}

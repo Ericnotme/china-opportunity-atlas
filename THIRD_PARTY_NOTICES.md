@@ -1,6 +1,14 @@
+# Third-party notices
+
+## China Census
+
+The processed mainland statistics and geometries include material from
+[`leiii/census`](https://github.com/leiii/census).
+
+```text
 MIT License
 
-Copyright (c) 2026 Ericnotme
+Copyright (c) 2022 Lei Dong
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,7 +27,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
 
-Third-party data and geographic boundaries are excluded from this license and
-remain subject to the terms identified in DATA_SOURCES.md.
+## Hong Kong district boundary and household income
 
+© The Government of the Hong Kong Special Administrative Region.
+
+- District boundary: Home Affairs Department, obtained through the Common Spatial Data Infrastructure Portal / DATA.GOV.HK.
+- District household income table: Census and Statistics Department, obtained through DATA.GOV.HK.
+- Use is subject to the [DATA.GOV.HK Terms and Conditions](https://data.gov.hk/en/terms-and-conditions).
+
+No endorsement by the Government of the Hong Kong Special Administrative Region is implied.

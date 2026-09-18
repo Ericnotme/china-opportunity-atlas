@@ -1,68 +1,67 @@
-# Methods
+# 方法说明
 
-This atlas is a **research prototype**, not an official statistic.
+## 1. 产品问题
 
-The US [Opportunity Atlas](https://www.opportunityatlas.org) (Chetty, Friedman, Hendren, Jones & Porter) links ~20 million people born 1978–83 back to childhood census tracts using IRS–Census administrative data, and reports mean household income at age 35 by parental income, race and sex.
+本项目回答的是：**公开数据目前能支持怎样的区级机会环境描述？**
 
-China does not publish parent–child linked tax records at neighborhood scale. This project therefore asks the *same interactive question* with a transparent structural mapping from **public district covariates**.
+它不回答：某个孩子在某区长大后，35 岁收入会增加多少。后一个问题需要可纵向连接的个体行政记录、可信的童年居住史和因果识别设计，目前公开数据条件不支持将其精确到六城每一个区。
 
-## Neighborhood quality
+## 2. 证据层级
 
-Each district \(d\) has expert-coded and yearbook-linked traits in \([0,100]\). The quality index is
+| 状态 | 含义 | 当前例子 |
+|---|---|---|
+| Observed / estimate | 由公开来源发布，或由开放项目从官方公报汇编 | 2020 常住人口、年龄结构、香港家庭收入中位数调查估计 |
+| Derived | 由已发布/汇编观测值透明计算 | 十年人口变化、城市内分位、人口活力演示分 |
+| Literature | 论文用于提出机制或约束解释 | CFPS/CHFS 变量设计、城市规模与代际流动研究 |
+| Future | 需要新数据与验证才能估计 | 区级长期结果、小区域估计、邻里因果效应 |
 
-\[
-Q_d = 0.28\,\text{school} + 0.16\,\text{university} + 0.16\,\text{inverse poverty}
-+ 0.12\,\text{income mix} + 0.12\,\text{high-skill jobs}
-+ 0.08\,\text{hukou/school inclusion} + 0.08\,\text{transit}.
-\]
+## 3. 人口活力演示分
 
-Weights follow Opportunity Atlas correlational facts (schools and poverty dominate). Inclusion is the China-specific term: how open local schools are to children without local hukou (Hong Kong: immigrant / public-housing inclusion).
-
-## Rank–rank mapping
-
-Let \(p\) be the parent’s percentile in the city income distribution. The child’s rank \(R\) in the urban age-35 household-income distribution is
+仅对大陆五城计算。先把组成指标转换为选定城市内部的百分位：
 
 \[
-R = 50 + \rho_c (p-50) + \theta(p)\,(Q_d-0.5)\cdot 100 + \gamma_g,
-\qquad
-\theta(p)=0.22+0.28(1-p/100).
+S_d = 0.50P(\Delta Pop_d) + 0.30P(WorkingAge_d) + 0.20P(Child_d)
 \]
 
-- \(\rho_c\) is a city-specific rank–rank slope, calibrated to published urban-China IGE (CFPS/CHIP), about 0.40–0.46.
-- \(\theta(p)\) is larger for poorer parents — Chetty’s central fact that neighborhoods matter more for low-income children.
-- \(\gamma_g\) is a small gender adjustment.
+其中：
 
-Household income at 35 is the city-specific lognormal inverse \(Y = \exp(\mu_c + \sigma_c \Phi^{-1}(R/100))\). College attendance, \(P(\text{top quintile})\) and homeownership are logistics in \(Q\) and \(p\). Homeownership penalizes expensive districts for low-\(p\) children (they gain earnings but are priced out of local owner-occupation).
+- `ΔPop`：2010–2020 常住人口总变化率；
+- `WorkingAge`：2020 年 15–59 岁人口比例；
+- `Child`：2020 年 0–14 岁人口比例；
+- 三个组成项必须全部可用才显示，不进行插补；
+- 所有百分位只在当前城市内部计算。
 
-## Childhood exposure
+每个县级/区级统计单元等权。单项百分位在每城仅 9–20 个单元上计算，同值使用平均秩，因此对行政区口径和极端值敏感。
 
-Following Chetty & Hendren’s movers design, the share of a place gap captured by moving at age \(a\) is \((18-a)/18\). The map panel reports “move at birth” versus “move at age 10” from the city’s lowest-\(Q\) district.
+这个分数的目的，是展示一条可复现的数据管线和 UI 状态设计。它不是“机会分”；权重没有经过构念效度、结果效度、预测效度或因果效度检验，因此界面不提供该指标的地区排名，也不应用于择校、购房或迁居决策。65 岁以上占比不进入演示分，也不赋予价值方向。
 
-## Data
+## 4. 空间口径
 
-| Layer | Source |
-| --- | --- |
-| Boundaries | Official PRC / Hong Kong district GeoJSON |
-| Mainland income | 2023 disposable income: yearbooks, statistical bulletins, published district rankings |
-| Hong Kong income | 2021 Census monthly household median, 18 districts |
-| School / jobs / inclusion | 0–100 scores coded from public education reputation, industrial structure, hukou tightness |
+- 大陆五城沿用 `leiii/census` 提供的 2010–2020 可比县级边界与合并口径；其几何坐标来自上游 WKT，仅用于可视化。
+- 部分成都、深圳单元为跨行政单元合并口径，界面显示为“片区”，以保持跨普查年份可比。
+- 香港使用民政事务总署 CSDI 的 18 区边界。
+- 香港收入层为 2025 年，边界快照修订于 2026 年；二者存在一年时间错配，当前版本按官方 18 区代码连接，但不声称边界完全同期。
+- 网站不加载大陆在线底图，不展示国界；区界仅作研究示意，不构成标准地图或测绘依据。
 
-Every row in `public/data/districts.csv` carries a `source` flag: `official`, `yearbook`, `census`, or `compiled`.
+## 5. 主要限制
 
-## What this is not
+1. **生态谬误**：区级统计不能推出区内每个家庭或孩子的处境。
+2. **选择偏差**：家庭择居与人口迁移同时影响环境暴露和成年结果。
+3. **年份不一致**：大陆主要是 2020 年人口结构，香港收入层为 2025 年。
+4. **不可跨城标尺**：分位和人口活力演示分在各城市内独立计算。
+5. **行政区调整**：跨年比较依赖可比边界处理，仍可能掩盖局部变化。
+6. **缺少长期结果**：当前没有公开的区级子代成年收入结果。
 
-1. **Not causal.** There is no movers quasi-experiment here. Colors are observational mappings.
-2. **Not tract-level.** Pudong, Chaoyang and Longgang contain gaps as large as the between-district gaps we plot.
-3. **Not PPP-aligned.** Mainland figures are CNY household income; Hong Kong is HKD. The choropleth scale is relative across the six cities.
-4. **Not a substitute for administrative microdata.** A true Chinese Opportunity Atlas would need linked tax or social-security records that are not public.
+## 6. 下一步研究设计
 
-## Code
+1. 合规申请受限地理标识与多期 CFPS/CHFS 数据；
+2. 构建童年暴露、父母资源与成年教育/就业/收入结果；
+3. 以分层贝叶斯或其他部分池化方法做小区域估计并公开区间；
+4. 使用儿童时期迁移、政策边界或其他准实验识别邻里效应；
+5. 进行时间、物价、家庭结构与迁移选择的稳健性检验；
+6. 发布可复现代码与聚合结果，不再分发受限微观数据。
 
-The mapping lives in `src/lib/atlas/model.ts`. City parameters are in `src/lib/atlas/cities.ts`. Rebuild the JSON/CSV with `python3 scripts/build-district-data.py`.
 
-## References
+## V0.4：权重敏感性与可检验预测
 
-- Chetty, R., Friedman, J. N., Hendren, N., Jones, M. R., & Porter, S. *The Opportunity Atlas: Mapping the Childhood Roots of Social Mobility.*
-- Chetty, R. & Hendren, N. (2018). *The Impacts of Neighborhoods on Intergenerational Mobility.* QJE.
-- Fan, Yi, Zhang and related CFPS/CHIP estimates of China’s intergenerational elasticity.
-- Hong, Q. & Gruijters, R. (2024). *A lost land of opportunity? The geography of intergenerational educational mobility in China.* Population, Space and Place.
+自定义情景保持原始人口数据不变，穷举 66 组权重报告次序范围；范围不是置信区间。香港实验用 2022–2023 拟合、2024 选参、2025 留出检验，对比上年值、共同趋势、独立趋势与收缩趋势。完整公式、指标、实测误差和限制见 [EXPERIMENTS.md](EXPERIMENTS.md)。

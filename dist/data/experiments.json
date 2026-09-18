@@ -1,0 +1,1142 @@
+{
+  "version": "0.4.0",
+  "inputs": {
+    "dist/data/atlas-data.json": "cb9480bac9254e27bd46dc93fe4e7847148bb4588b7c37f0fdec8175ac74d16d",
+    "data/source/hk-income-130-06806-api.json": "c357deec0b0d3346415955255bc961e5d95c758ba37b09f2205623842b483212"
+  },
+  "sensitivity": {
+    "beijing": {
+      "scenarioCount": 66,
+      "completeCount": 16,
+      "totalCount": 16,
+      "districts": {
+        "110101": {
+          "bestRank": 2,
+          "worstRank": 16,
+          "topQuarterShare": 0.0909,
+          "percentiles": [
+            0.0,
+            3.3333333333333335,
+            93.33333333333333
+          ]
+        },
+        "110102": {
+          "bestRank": 1,
+          "worstRank": 15,
+          "topQuarterShare": 0.1818,
+          "percentiles": [
+            6.666666666666667,
+            3.3333333333333335,
+            100.0
+          ]
+        },
+        "110105": {
+          "bestRank": 7,
+          "worstRank": 14,
+          "topQuarterShare": 0,
+          "percentiles": [
+            33.333333333333336,
+            60.0,
+            20.0
+          ]
+        },
+        "110106": {
+          "bestRank": 10,
+          "worstRank": 16,
+          "topQuarterShare": 0,
+          "percentiles": [
+            26.666666666666668,
+            40.0,
+            6.666666666666667
+          ]
+        },
+        "110107": {
+          "bestRank": 12,
+          "worstRank": 16,
+          "topQuarterShare": 0,
+          "percentiles": [
+            13.333333333333334,
+            26.666666666666668,
+            20.0
+          ]
+        },
+        "110108": {
+          "bestRank": 4,
+          "worstRank": 13,
+          "topQuarterShare": 0.0303,
+          "percentiles": [
+            20.0,
+            73.33333333333333,
+            50.0
+          ]
+        },
+        "110109": {
+          "bestRank": 6,
+          "worstRank": 14,
+          "topQuarterShare": 0,
+          "percentiles": [
+            66.66666666666667,
+            46.666666666666664,
+            20.0
+          ]
+        },
+        "110111": {
+          "bestRank": 1,
+          "worstRank": 8,
+          "topQuarterShare": 0.6667,
+          "percentiles": [
+            80.0,
+            53.333333333333336,
+            80.0
+          ]
+        },
+        "110112": {
+          "bestRank": 1,
+          "worstRank": 6,
+          "topQuarterShare": 0.9091,
+          "percentiles": [
+            100.0,
+            80.0,
+            66.66666666666667
+          ]
+        },
+        "110113": {
+          "bestRank": 1,
+          "worstRank": 10,
+          "topQuarterShare": 0.7576,
+          "percentiles": [
+            93.33333333333333,
+            86.66666666666667,
+            36.666666666666664
+          ]
+        },
+        "110114": {
+          "bestRank": 1,
+          "worstRank": 16,
+          "topQuarterShare": 0.3485,
+          "percentiles": [
+            73.33333333333333,
+            100.0,
+            0.0
+          ]
+        },
+        "110115": {
+          "bestRank": 1,
+          "worstRank": 7,
+          "topQuarterShare": 0.8788,
+          "percentiles": [
+            86.66666666666667,
+            93.33333333333333,
+            60.0
+          ]
+        },
+        "110116": {
+          "bestRank": 5,
+          "worstRank": 9,
+          "topQuarterShare": 0,
+          "percentiles": [
+            60.0,
+            66.66666666666667,
+            50.0
+          ]
+        },
+        "110117": {
+          "bestRank": 3,
+          "worstRank": 14,
+          "topQuarterShare": 0.1818,
+          "percentiles": [
+            46.666666666666664,
+            13.333333333333334,
+            86.66666666666667
+          ]
+        },
+        "110118": {
+          "bestRank": 5,
+          "worstRank": 13,
+          "topQuarterShare": 0,
+          "percentiles": [
+            53.333333333333336,
+            20.0,
+            73.33333333333333
+          ]
+        },
+        "110119": {
+          "bestRank": 10,
+          "worstRank": 14,
+          "topQuarterShare": 0,
+          "percentiles": [
+            40.0,
+            33.333333333333336,
+            36.666666666666664
+          ]
+        }
+      }
+    },
+    "shanghai": {
+      "scenarioCount": 66,
+      "completeCount": 15,
+      "totalCount": 16,
+      "districts": {
+        "310104": {
+          "bestRank": 5,
+          "worstRank": 10,
+          "topQuarterShare": 0,
+          "percentiles": [
+            46.666666666666664,
+            35.714285714285715,
+            67.85714285714286
+          ]
+        },
+        "310105": {
+          "bestRank": 9,
+          "worstRank": 12,
+          "topQuarterShare": 0,
+          "percentiles": [
+            40.0,
+            42.857142857142854,
+            25.0
+          ]
+        },
+        "310106": {
+          "bestRank": 8,
+          "worstRank": 13,
+          "topQuarterShare": 0,
+          "percentiles": [
+            10.0,
+            14.285714285714286,
+            46.42857142857143
+          ]
+        },
+        "310107": {
+          "bestRank": 7,
+          "worstRank": 11,
+          "topQuarterShare": 0,
+          "percentiles": [
+            26.666666666666668,
+            28.571428571428573,
+            57.142857142857146
+          ]
+        },
+        "310109": {
+          "bestRank": 14,
+          "worstRank": 15,
+          "topQuarterShare": 0,
+          "percentiles": [
+            0.0,
+            7.142857142857143,
+            7.142857142857143
+          ]
+        },
+        "310110": {
+          "bestRank": 12,
+          "worstRank": 13,
+          "topQuarterShare": 0,
+          "percentiles": [
+            20.0,
+            21.428571428571427,
+            14.285714285714286
+          ]
+        },
+        "310112": {
+          "bestRank": 1,
+          "worstRank": 7,
+          "topQuarterShare": 0.8333,
+          "percentiles": [
+            60.0,
+            100.0,
+            100.0
+          ]
+        },
+        "310113": {
+          "bestRank": 3,
+          "worstRank": 8,
+          "topQuarterShare": 0.2879,
+          "percentiles": [
+            80.0,
+            50.0,
+            78.57142857142857
+          ]
+        },
+        "310114": {
+          "bestRank": 1,
+          "worstRank": 5,
+          "topQuarterShare": 0.8788,
+          "percentiles": [
+            100.0,
+            78.57142857142857,
+            67.85714285714286
+          ]
+        },
+        "310115": {
+          "bestRank": 3,
+          "worstRank": 6,
+          "topQuarterShare": 0.5303,
+          "percentiles": [
+            73.33333333333333,
+            64.28571428571429,
+            85.71428571428571
+          ]
+        },
+        "310116": {
+          "bestRank": 6,
+          "worstRank": 10,
+          "topQuarterShare": 0,
+          "percentiles": [
+            66.66666666666667,
+            57.142857142857146,
+            35.714285714285715
+          ]
+        },
+        "310117": {
+          "bestRank": 1,
+          "worstRank": 3,
+          "topQuarterShare": 1,
+          "percentiles": [
+            93.33333333333333,
+            85.71428571428571,
+            92.85714285714286
+          ]
+        },
+        "310118": {
+          "bestRank": 1,
+          "worstRank": 11,
+          "topQuarterShare": 0.4697,
+          "percentiles": [
+            86.66666666666667,
+            92.85714285714286,
+            25.0
+          ]
+        },
+        "310120": {
+          "bestRank": 5,
+          "worstRank": 9,
+          "topQuarterShare": 0,
+          "percentiles": [
+            53.333333333333336,
+            71.42857142857143,
+            46.42857142857143
+          ]
+        },
+        "310151": {
+          "bestRank": 13,
+          "worstRank": 15,
+          "topQuarterShare": 0,
+          "percentiles": [
+            10.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "guangzhou": {
+      "scenarioCount": 66,
+      "completeCount": 11,
+      "totalCount": 11,
+      "districts": {
+        "440103": {
+          "bestRank": 7,
+          "worstRank": 10,
+          "topQuarterShare": 0,
+          "percentiles": [
+            30.0,
+            10.0,
+            40.0
+          ]
+        },
+        "440104": {
+          "bestRank": 6,
+          "worstRank": 11,
+          "topQuarterShare": 0,
+          "percentiles": [
+            0.0,
+            0.0,
+            50.0
+          ]
+        },
+        "440105": {
+          "bestRank": 7,
+          "worstRank": 11,
+          "topQuarterShare": 0,
+          "percentiles": [
+            10.0,
+            40.0,
+            0.0
+          ]
+        },
+        "440106": {
+          "bestRank": 2,
+          "worstRank": 10,
+          "topQuarterShare": 0.2576,
+          "percentiles": [
+            70.0,
+            90.0,
+            10.0
+          ]
+        },
+        "440111": {
+          "bestRank": 1,
+          "worstRank": 9,
+          "topQuarterShare": 0.6212,
+          "percentiles": [
+            80.0,
+            100.0,
+            20.0
+          ]
+        },
+        "440112": {
+          "bestRank": 1,
+          "worstRank": 6,
+          "topQuarterShare": 0.3485,
+          "percentiles": [
+            60.0,
+            70.0,
+            70.0
+          ]
+        },
+        "440113": {
+          "bestRank": 3,
+          "worstRank": 8,
+          "topQuarterShare": 0.1212,
+          "percentiles": [
+            50.0,
+            80.0,
+            30.0
+          ]
+        },
+        "440114": {
+          "bestRank": 1,
+          "worstRank": 5,
+          "topQuarterShare": 0.8636,
+          "percentiles": [
+            90.0,
+            60.0,
+            80.0
+          ]
+        },
+        "440115": {
+          "bestRank": 1,
+          "worstRank": 6,
+          "topQuarterShare": 0.4848,
+          "percentiles": [
+            100.0,
+            50.0,
+            60.0
+          ]
+        },
+        "440117": {
+          "bestRank": 1,
+          "worstRank": 10,
+          "topQuarterShare": 0.2121,
+          "percentiles": [
+            20.0,
+            20.0,
+            100.0
+          ]
+        },
+        "440118": {
+          "bestRank": 2,
+          "worstRank": 8,
+          "topQuarterShare": 0.2424,
+          "percentiles": [
+            40.0,
+            30.0,
+            90.0
+          ]
+        }
+      }
+    },
+    "shenzhen": {
+      "scenarioCount": 66,
+      "completeCount": 9,
+      "totalCount": 9,
+      "districts": {
+        "440303": {
+          "bestRank": 1,
+          "worstRank": 9,
+          "topQuarterShare": 0.3182,
+          "percentiles": [
+            25.0,
+            0.0,
+            100.0
+          ]
+        },
+        "440304": {
+          "bestRank": 5,
+          "worstRank": 9,
+          "topQuarterShare": 0,
+          "percentiles": [
+            12.5,
+            12.5,
+            50.0
+          ]
+        },
+        "440305": {
+          "bestRank": 6,
+          "worstRank": 8,
+          "topQuarterShare": 0,
+          "percentiles": [
+            37.5,
+            37.5,
+            37.5
+          ]
+        },
+        "440306": {
+          "bestRank": 2,
+          "worstRank": 9,
+          "topQuarterShare": 0.2273,
+          "percentiles": [
+            50.0,
+            87.5,
+            12.5
+          ]
+        },
+        "440307": {
+          "bestRank": 1,
+          "worstRank": 5,
+          "topQuarterShare": 0.8182,
+          "percentiles": [
+            87.5,
+            50.0,
+            87.5
+          ]
+        },
+        "440308": {
+          "bestRank": 3,
+          "worstRank": 9,
+          "topQuarterShare": 0.0909,
+          "percentiles": [
+            0.0,
+            25.0,
+            75.0
+          ]
+        },
+        "440309": {
+          "bestRank": 2,
+          "worstRank": 7,
+          "topQuarterShare": 0.4697,
+          "percentiles": [
+            75.0,
+            75.0,
+            25.0
+          ]
+        },
+        "440310": {
+          "bestRank": 2,
+          "worstRank": 5,
+          "topQuarterShare": 0.4848,
+          "percentiles": [
+            62.5,
+            62.5,
+            62.5
+          ]
+        },
+        "440311": {
+          "bestRank": 1,
+          "worstRank": 9,
+          "topQuarterShare": 0.697,
+          "percentiles": [
+            100.0,
+            100.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "chengdu": {
+      "scenarioCount": 66,
+      "completeCount": 17,
+      "totalCount": 20,
+      "districts": {
+        "510104": {
+          "bestRank": 4,
+          "worstRank": 7,
+          "topQuarterShare": 0.7273,
+          "percentiles": [
+            63.1578947368421,
+            68.75,
+            62.5
+          ]
+        },
+        "510105": {
+          "bestRank": 4,
+          "worstRank": 8,
+          "topQuarterShare": 0.4697,
+          "percentiles": [
+            47.36842105263158,
+            62.5,
+            78.125
+          ]
+        },
+        "510106": {
+          "bestRank": 4,
+          "worstRank": 17,
+          "topQuarterShare": 0.0758,
+          "percentiles": [
+            21.05263157894737,
+            81.25,
+            6.25
+          ]
+        },
+        "510108": {
+          "bestRank": 3,
+          "worstRank": 15,
+          "topQuarterShare": 0.4545,
+          "percentiles": [
+            73.6842105263158,
+            87.5,
+            12.5
+          ]
+        },
+        "510112": {
+          "bestRank": 1,
+          "worstRank": 6,
+          "topQuarterShare": 0.9242,
+          "percentiles": [
+            78.94736842105263,
+            100.0,
+            68.75
+          ]
+        },
+        "510113": {
+          "bestRank": 6,
+          "worstRank": 9,
+          "topQuarterShare": 0,
+          "percentiles": [
+            57.89473684210526,
+            56.25,
+            50.0
+          ]
+        },
+        "510114": {
+          "bestRank": 1,
+          "worstRank": 5,
+          "topQuarterShare": 1,
+          "percentiles": [
+            89.47368421052632,
+            75.0,
+            93.75
+          ]
+        },
+        "510115": {
+          "bestRank": 1,
+          "worstRank": 4,
+          "topQuarterShare": 1,
+          "percentiles": [
+            100.0,
+            93.75,
+            78.125
+          ]
+        },
+        "510118": {
+          "bestRank": 7,
+          "worstRank": 15,
+          "topQuarterShare": 0,
+          "percentiles": [
+            52.63157894736842,
+            43.75,
+            18.75
+          ]
+        },
+        "510121": {
+          "bestRank": 3,
+          "worstRank": 14,
+          "topQuarterShare": 0.1818,
+          "percentiles": [
+            42.10526315789474,
+            18.75,
+            87.5
+          ]
+        },
+        "510129": {
+          "bestRank": 12,
+          "worstRank": 16,
+          "topQuarterShare": 0,
+          "percentiles": [
+            10.526315789473685,
+            31.25,
+            25.0
+          ]
+        },
+        "510131": {
+          "bestRank": 8,
+          "worstRank": 13,
+          "topQuarterShare": 0,
+          "percentiles": [
+            26.31578947368421,
+            37.5,
+            56.25
+          ]
+        },
+        "510181": {
+          "bestRank": 10,
+          "worstRank": 15,
+          "topQuarterShare": 0,
+          "percentiles": [
+            31.57894736842105,
+            25.0,
+            37.5
+          ]
+        },
+        "510182": {
+          "bestRank": 10,
+          "worstRank": 17,
+          "topQuarterShare": 0,
+          "percentiles": [
+            5.2631578947368425,
+            6.25,
+            43.75
+          ]
+        },
+        "510183": {
+          "bestRank": 12,
+          "worstRank": 17,
+          "topQuarterShare": 0,
+          "percentiles": [
+            0.0,
+            12.5,
+            31.25
+          ]
+        },
+        "510184": {
+          "bestRank": 9,
+          "worstRank": 17,
+          "topQuarterShare": 0,
+          "percentiles": [
+            36.8421052631579,
+            50.0,
+            0.0
+          ]
+        },
+        "510185": {
+          "bestRank": 1,
+          "worstRank": 17,
+          "topQuarterShare": 0.1667,
+          "percentiles": [
+            15.789473684210526,
+            0.0,
+            100.0
+          ]
+        }
+      }
+    }
+  },
+  "backtest": {
+    "target": "2025 district median monthly domestic household income, HKD",
+    "design": "Retrospective temporal holdout; not a preregistered or real-time forecast",
+    "trainingYears": [
+      2022,
+      2023
+    ],
+    "validationYear": 2024,
+    "testYear": 2025,
+    "districtCount": 18,
+    "selectedWeight": 0.4,
+    "validation": [
+      {
+        "weight": 0.0,
+        "mae": 1414.5733463374056,
+        "rmse": 1563.5501663619198,
+        "bias": 1414.5733463374056
+      },
+      {
+        "weight": 0.1,
+        "mae": 1405.7923854087335,
+        "rmse": 1568.6241470981956,
+        "bias": 1405.7923854087335
+      },
+      {
+        "weight": 0.2,
+        "mae": 1397.2863756310026,
+        "rmse": 1580.5369646223066,
+        "bias": 1397.2863756310026
+      },
+      {
+        "weight": 0.3,
+        "mae": 1389.0544884270228,
+        "rmse": 1599.0649206920298,
+        "bias": 1389.0544884270228
+      },
+      {
+        "weight": 0.4,
+        "mae": 1381.0959030622253,
+        "rmse": 1623.9132012492419,
+        "bias": 1381.0959030622253
+      },
+      {
+        "weight": 0.5,
+        "mae": 1385.324657584441,
+        "rmse": 1654.7313001648565,
+        "bias": 1373.4098065988742
+      },
+      {
+        "weight": 0.6,
+        "mae": 1410.655240751977,
+        "rmse": 1691.1297725539416,
+        "bias": 1365.9953938506478
+      },
+      {
+        "weight": 0.7,
+        "mae": 1437.4654897309485,
+        "rmse": 1732.6966179331864,
+        "bias": 1358.8518673375484
+      },
+      {
+        "weight": 0.8,
+        "mae": 1477.093368366612,
+        "rmse": 1779.011992484377,
+        "bias": 1351.9784372411827
+      },
+      {
+        "weight": 0.9,
+        "mae": 1516.7125970943332,
+        "rmse": 1829.6604540389712,
+        "bias": 1345.3743213603748
+      },
+      {
+        "weight": 1.0,
+        "mae": 1556.32423151051,
+        "rmse": 1884.2404234048386,
+        "bias": 1339.0387450671285
+      }
+    ],
+    "models": [
+      {
+        "id": "persistence",
+        "name": "上年值基线",
+        "mae": 738.8888888888889,
+        "rmse": 1052.246274510973,
+        "bias": -605.5555555555555
+      },
+      {
+        "id": "pooled",
+        "name": "共同趋势",
+        "mae": 649.0430969238764,
+        "rmse": 833.4509296113345,
+        "bias": -7.7037781063849655
+      },
+      {
+        "id": "local",
+        "name": "各区独立趋势",
+        "mae": 878.7852453510586,
+        "rmse": 1165.5461780179476,
+        "bias": -49.609938992244174
+      },
+      {
+        "id": "shrinkage",
+        "name": "收缩趋势",
+        "mae": 721.8730663022933,
+        "rmse": 956.023183214824,
+        "bias": -25.154362977753003
+      }
+    ],
+    "districts": [
+      {
+        "code": "A",
+        "name": "Central and Western",
+        "history": {
+          "2022": 42300.0,
+          "2023": 42600.0,
+          "2024": 42400.0,
+          "2025": 45000.0
+        },
+        "actual": 45000.0,
+        "predictions": {
+          "persistence": 42400.0,
+          "pooled": 43211.45380855274,
+          "local": 42450.08861758314,
+          "shrinkage": 42905.28264244278
+        }
+      },
+      {
+        "code": "B",
+        "name": "Wan Chai",
+        "history": {
+          "2022": 41800.0,
+          "2023": 40500.0,
+          "2024": 40800.0,
+          "2025": 43300.0
+        },
+        "actual": 43300.0,
+        "predictions": {
+          "persistence": 40800.0,
+          "pooled": 41580.83291011679,
+          "local": 40309.00738736968,
+          "shrinkage": 41067.35686971454
+        }
+      },
+      {
+        "code": "C",
+        "name": "Eastern",
+        "history": {
+          "2022": 31500.0,
+          "2023": 33800.0,
+          "2024": 32500.0,
+          "2025": 33400.0
+        },
+        "actual": 33400.0,
+        "predictions": {
+          "persistence": 32500.0,
+          "pooled": 33121.98699948029,
+          "local": 33011.84251191905,
+          "shrinkage": 33077.88517314374
+        }
+      },
+      {
+        "code": "D",
+        "name": "Southern",
+        "history": {
+          "2022": 34200.0,
+          "2023": 36000.0,
+          "2024": 36000.0,
+          "2025": 36000.0
+        },
+        "actual": 36000.0,
+        "predictions": {
+          "persistence": 36000.0,
+          "pooled": 36688.970214808935,
+          "local": 36935.220675065546,
+          "shrinkage": 36787.272770586795
+        }
+      },
+      {
+        "code": "E",
+        "name": "Yau Tsim Mong",
+        "history": {
+          "2022": 29000.0,
+          "2023": 30700.0,
+          "2024": 29000.0,
+          "2025": 30300.0
+        },
+        "actual": 30300.0,
+        "predictions": {
+          "persistence": 29000.0,
+          "pooled": 29555.00378415164,
+          "local": 29000.0,
+          "shrinkage": 29331.73892147074
+        }
+      },
+      {
+        "code": "F",
+        "name": "Sham Shui Po",
+        "history": {
+          "2022": 22800.0,
+          "2023": 24100.0,
+          "2024": 24500.0,
+          "2025": 25000.0
+        },
+        "actual": 25000.0,
+        "predictions": {
+          "persistence": 24500.0,
+          "pooled": 24968.882507300525,
+          "local": 25396.958133921085,
+          "shrinkage": 25139.24003187925
+        }
+      },
+      {
+        "code": "G",
+        "name": "Kowloon City",
+        "history": {
+          "2022": 30000.0,
+          "2023": 30700.0,
+          "2024": 31100.0,
+          "2025": 31300.0
+        },
+        "actual": 31300.0,
+        "predictions": {
+          "persistence": 31100.0,
+          "pooled": 31695.193713348828,
+          "local": 31665.03381755129,
+          "shrinkage": 31683.126309404943
+        }
+      },
+      {
+        "code": "H",
+        "name": "Wong Tai Sin",
+        "history": {
+          "2022": 24400.0,
+          "2023": 25100.0,
+          "2024": 25600.0,
+          "2025": 25600.0
+        },
+        "actual": 25600.0,
+        "predictions": {
+          "persistence": 25600.0,
+          "pooled": 26089.93437497524,
+          "local": 26221.953010257097,
+          "shrinkage": 26142.66188083895
+        }
+      },
+      {
+        "code": "J",
+        "name": "Kwun Tong",
+        "history": {
+          "2022": 22100.0,
+          "2023": 24000.0,
+          "2024": 24200.0,
+          "2025": 24900.0
+        },
+        "actual": 24900.0,
+        "predictions": {
+          "persistence": 24200.0,
+          "pooled": 24663.141088843782,
+          "local": 25323.685548785263,
+          "shrinkage": 24925.26574276878
+        }
+      },
+      {
+        "code": "K",
+        "name": "Tsuen Wan",
+        "history": {
+          "2022": 32300.0,
+          "2023": 34400.0,
+          "2024": 34200.0,
+          "2025": 34200.0
+        },
+        "actual": 34200.0,
+        "predictions": {
+          "persistence": 34200.0,
+          "pooled": 34854.52170406849,
+          "local": 35191.50967124282,
+          "shrinkage": 34988.927917696
+        }
+      },
+      {
+        "code": "L",
+        "name": "Tuen Mun",
+        "history": {
+          "2022": 25800.0,
+          "2023": 26500.0,
+          "2024": 26200.0,
+          "2025": 27400.0
+        },
+        "actual": 27400.0,
+        "predictions": {
+          "persistence": 26200.0,
+          "pooled": 26701.41721188872,
+          "local": 26402.319606810215,
+          "shrinkage": 26581.373707076065
+        }
+      },
+      {
+        "code": "M",
+        "name": "Yuen Long",
+        "history": {
+          "2022": 28900.0,
+          "2023": 30100.0,
+          "2024": 30000.0,
+          "2025": 30000.0
+        },
+        "actual": 30000.0,
+        "predictions": {
+          "persistence": 30000.0,
+          "pooled": 30574.14184567411,
+          "local": 30565.6024865096,
+          "shrinkage": 30570.72581576046
+        }
+      },
+      {
+        "code": "N",
+        "name": "North",
+        "history": {
+          "2022": 24400.0,
+          "2023": 25500.0,
+          "2024": 25800.0,
+          "2025": 26200.0
+        },
+        "actual": 26200.0,
+        "predictions": {
+          "persistence": 25800.0,
+          "pooled": 26293.761987279733,
+          "local": 26529.84091577621,
+          "shrinkage": 26387.940413037068
+        }
+      },
+      {
+        "code": "P",
+        "name": "Tai Po",
+        "history": {
+          "2022": 30200.0,
+          "2023": 31700.0,
+          "2024": 31300.0,
+          "2025": 30700.0
+        },
+        "actual": 30700.0,
+        "predictions": {
+          "persistence": 31300.0,
+          "pooled": 31899.02132565332,
+          "local": 31864.934847692406,
+          "shrinkage": 31885.38236110366
+        }
+      },
+      {
+        "code": "Q",
+        "name": "Sai Kung",
+        "history": {
+          "2022": 40000.0,
+          "2023": 40400.0,
+          "2024": 41200.0,
+          "2025": 40600.0
+        },
+        "actual": 40600.0,
+        "predictions": {
+          "persistence": 41200.0,
+          "pooled": 41988.488134725776,
+          "local": 41813.43324817994,
+          "shrinkage": 41918.37840594412
+        }
+      },
+      {
+        "code": "R",
+        "name": "Sha Tin",
+        "history": {
+          "2022": 29700.0,
+          "2023": 30500.0,
+          "2024": 31000.0,
+          "2025": 31800.0
+        },
+        "actual": 31800.0,
+        "predictions": {
+          "persistence": 31000.0,
+          "pooled": 31593.279907196582,
+          "local": 31671.185217228187,
+          "shrinkage": 31624.419008839
+        }
+      },
+      {
+        "code": "S",
+        "name": "Kwai Tsing",
+        "history": {
+          "2022": 24300.0,
+          "2023": 26000.0,
+          "2024": 25500.0,
+          "2025": 25700.0
+        },
+        "actual": 25700.0,
+        "predictions": {
+          "persistence": 25500.0,
+          "pooled": 25988.020568822994,
+          "local": 26122.042628996518,
+          "shrinkage": 26041.546680900843
+        }
+      },
+      {
+        "code": "T",
+        "name": "Islands",
+        "history": {
+          "2022": 29400.0,
+          "2023": 31500.0,
+          "2024": 31000.0,
+          "2025": 31800.0
+        },
+        "actual": 31800.0,
+        "predictions": {
+          "persistence": 31000.0,
+          "pooled": 31593.279907196582,
+          "local": 31832.36277325155,
+          "shrinkage": 31688.696813792725
+        }
+      }
+    ]
+  }
+}

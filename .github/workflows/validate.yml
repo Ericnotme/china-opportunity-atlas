@@ -1,0 +1,24 @@
+name: Validate atlas
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  data-and-interface:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check JavaScript syntax
+        run: |
+          node --check dist/app.js
+          node --check dist/model.js
+          node tests/test_model.cjs
+      - name: Validate data contract
+        run: python -m unittest discover -s tests -v
