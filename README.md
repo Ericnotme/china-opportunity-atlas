@@ -68,12 +68,16 @@ public/data/       districts.csv
 scripts/build-district-data.py
 ```
 
-## Run locally
+## Using this repo in an application
 
-```bash
-npm install
-npm run dev
-```
+Point reviewers at:
+
+1. This README + [METHODOLOGY.md](METHODOLOGY.md) — the identification strategy and its limits.
+2. [`src/lib/atlas/model.ts`](src/lib/atlas/model.ts) — the rank–rank mapping.
+3. [`public/data/districts.csv`](public/data/districts.csv) — covariates with source flags.
+4. The live interactive map (choropleth, P25 slider, moving experiment, bilingual UI).
+
+The UI here is the MapLibre / React source of that map. It is not a standalone `npm` app; the running site is the deployed atlas.
 
 ## References
 
