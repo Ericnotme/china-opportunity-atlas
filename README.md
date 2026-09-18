@@ -2,9 +2,9 @@
 
 District-level interactive atlas of how childhood neighborhoods in **Shanghai, Beijing, Shenzhen, Guangzhou, Chengdu and Hong Kong** shape modeled household income at age 35.
 
-A research-prototype counterpart to Chetty, Friedman, Hendren, Jones & Porter’s [Opportunity Atlas](https://www.opportunityatlas.org), built as a public demonstration of **data-driven modeling, geospatial visualization, and research communication** — intended as a programming / modeling portfolio piece (e.g. HKUST data-driven modeling).
+A research-prototype counterpart to Chetty, Friedman, Hendren, Jones & Porter’s [Opportunity Atlas](https://www.opportunityatlas.org), built as a public demonstration of **data-driven modeling, geospatial visualization, and research communication**.
 
-> China does **not** publish parent–child linked tax records at neighborhood scale. This atlas is an honest structural mapping from public district covariates — not an official statistic. See [METHODOLOGY.md](METHODOLOGY.md).
+> China does **not** publish parent–child linked tax records at neighborhood scale. This atlas is an honest structural mapping from public district covariates — not an official statistic. See [Methods](#methods).
 
 ## What you can do
 
@@ -40,8 +40,6 @@ R = 50 + ρ_city (p − 50) + θ(p) (Q − 0.5)·100 + γ_gender
 
 Childhood exposure (movers design): share of the place gap captured ≈ `(18 − age at move) / 18`.
 
-Implementation: [`src/lib/atlas/model.ts`](src/lib/atlas/model.ts).
-
 ## Data
 
 | Layer | Source |
@@ -50,12 +48,6 @@ Implementation: [`src/lib/atlas/model.ts`](src/lib/atlas/model.ts).
 | Mainland income | 2023 disposable income from statistical yearbooks, bulletins, published rankings |
 | Hong Kong income | 2021 Census monthly household median (18 districts) |
 | School / jobs / inclusion scores | Expert-coded 0–100 from public education reputation, industrial structure, hukou tightness — tagged `official` / `yearbook` / `census` / `compiled` in the CSV |
-
-Rebuild JSON/CSV:
-
-```bash
-python3 scripts/build-district-data.py
-```
 
 ## Limits (please keep these in any application essay)
 
@@ -68,13 +60,19 @@ python3 scripts/build-district-data.py
 ## Repository layout
 
 ```
-src/lib/atlas/          rank-rank model, city params, i18n, covariates
-src/components/atlas/   MapLibre choropleth, filters, district panel
-src/routes/             map / rankings / compare / methodology
-public/geo/             simplified district polygons
-public/data/            districts.csv
+src/lib/atlas/     types, city params, rank-rank model, i18n
+src/components/    map, controls, district panel
+src/routes/        map / rankings / compare / methodology
+public/geo/        simplified district polygons
+public/data/       districts.csv
 scripts/build-district-data.py
-METHODOLOGY.md          full specification
+```
+
+## Run locally
+
+```bash
+npm install
+npm run dev
 ```
 
 ## References

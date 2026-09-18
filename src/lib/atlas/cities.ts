@@ -1,0 +1,80 @@
+import type { CityDef, CityId } from "./types";
+
+export const CITIES: CityDef[] = [
+  {
+    id: "shanghai",
+    nameZh: "上海",
+    nameEn: "Shanghai",
+    rho: 0.44,
+    mu35: 12.32, // ~224k CNY household at median rank
+    sigma35: 0.48,
+    currency: "CNY",
+    femaleLogGap: -0.12,
+    geo: "/geo/shanghai.json",
+    center: [121.47, 31.23],
+  },
+  {
+    id: "beijing",
+    nameZh: "北京",
+    nameEn: "Beijing",
+    rho: 0.46,
+    mu35: 12.28,
+    sigma35: 0.5,
+    currency: "CNY",
+    femaleLogGap: -0.11,
+    geo: "/geo/beijing.json",
+    center: [116.4, 39.9],
+  },
+  {
+    id: "shenzhen",
+    nameZh: "深圳",
+    nameEn: "Shenzhen",
+    rho: 0.4,
+    mu35: 12.22,
+    sigma35: 0.5,
+    currency: "CNY",
+    femaleLogGap: -0.1,
+    geo: "/geo/shenzhen.json",
+    center: [114.06, 22.55],
+  },
+  {
+    id: "guangzhou",
+    nameZh: "广州",
+    nameEn: "Guangzhou",
+    rho: 0.43,
+    mu35: 12.1,
+    sigma35: 0.47,
+    currency: "CNY",
+    femaleLogGap: -0.12,
+    geo: "/geo/guangzhou.json",
+    center: [113.26, 23.13],
+  },
+  {
+    id: "chengdu",
+    nameZh: "成都",
+    nameEn: "Chengdu",
+    rho: 0.45,
+    mu35: 11.88,
+    sigma35: 0.46,
+    currency: "CNY",
+    femaleLogGap: -0.13,
+    geo: "/geo/chengdu.json",
+    center: [104.07, 30.67],
+  },
+  {
+    id: "hongkong",
+    nameZh: "香港",
+    nameEn: "Hong Kong",
+    rho: 0.41,
+    mu35: 12.78, // ~355k HKD household
+    sigma35: 0.52,
+    currency: "HKD",
+    femaleLogGap: -0.14,
+    geo: "/geo/hongkong.json",
+    center: [114.17, 22.32],
+  },
+];
+
+export const CITY_BY_ID: Record<CityId, CityDef> = Object.fromEntries(
+  CITIES.map((c) => [c.id, c]),
+) as Record<CityId, CityDef>;
