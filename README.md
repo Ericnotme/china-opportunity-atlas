@@ -146,3 +146,7 @@ python scripts/build_atlas_data.py \
 
 Original code and documentation are MIT licensed. Upstream data and boundaries
 retain their original terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## 自愿支持创作
+
+如果这个项目对你有帮助，可以[自愿支持创作](https://signal-observatory.weijiaxian.chatgpt.site/lab/support/)。支持完全自愿，不影响公开内容的使用。也可另开[配乐页面](https://signal-observatory.weijiaxian.chatgpt.site/lab/?listen=china-opportunity-atlas#music)，选择古典或爵士乐。
